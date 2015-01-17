@@ -1,0 +1,7 @@
+movie_battle_set_movies_homepage:
+    path:     /moviecall
+    defaults: { _controller: MovieBattleGetMoviesBundle:Default:set}
+
+movie_battle_get_movies_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: MovieBattleGetMoviesBundle:Default:index}

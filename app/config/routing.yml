@@ -1,0 +1,7 @@
+movie_battle_get_movies:
+    resource: "@MovieBattleGetMoviesBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation

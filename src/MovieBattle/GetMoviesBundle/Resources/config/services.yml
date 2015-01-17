@@ -1,0 +1,7 @@
+services:
+#    movie_battle_get_movies.example:
+#        class: MovieBattle\GetMoviesBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+    curl:
+        class: MovieBattle\GetMoviesBundle\Service\curl
